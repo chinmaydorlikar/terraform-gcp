@@ -1,0 +1,32 @@
+One workspace --> One VCS
+Terraform
+
+ssh, winrm --> remote exec
+
+Enterperise	
+- SAML/SSO
+- Audit Logging
+- ServiceNow
+
+
+
+
+export TF_LOG_PATH=./terraform.log
+export TF_LOG=trace
+export TF_VAR_varname="value"
+export TF_WORKSPACE=your_workspace	
+
+3rd party plugins
+- Golang only
+- Install manually
+
+Data block
+- Can be provided by anyone
+- Allows filtes and local vars
+
+Partial Configuration
+
+
+local state
+- lock: system APIs
+- local file system
